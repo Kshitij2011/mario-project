@@ -1,0 +1,28 @@
+.heading {
+    width:100%;
+    text-align: left;
+}
+
+h2{
+    display: inline;
+}
+
+.heading button{
+float: right;
+border: 2px solid cyan;
+}
+
+
+#start,#status{
+    font-size: 22px;
+}
+
+body{
+    background-size:cover;
+}
+
+canvas{
+    border:10px solid aqua;
+    border-radius:25px;
+    box-shadow: 15px 15px 15px rgb(16, 184, 190) ;
+}
