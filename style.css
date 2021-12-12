@@ -12,17 +12,36 @@ float: right;
 border: 2px solid cyan;
 }
 
+.big_image{
+   width:100%;
+}
 
 #start,#status{
     font-size: 22px;
 }
 
-body{
-    background-size:cover;
+h4{
+    background-color:cornsilk;
+    line-height:2;
+    margin: 0px;
 }
 
-canvas{
-    border:10px solid aqua;
-    border-radius:25px;
-    box-shadow: 15px 15px 15px rgb(16, 184, 190) ;
+.modal-dialog{
+    width:90%;
+}
+
+.instruction_image{
+    display: inline-block;
+    width:45%;
+}
+
+video{
+    background: url('game_console.png');
+    background-size:cover;
+    background-position:center;
+    padding:25px;
+}
+
+body{
+    background-size: cover;
 }

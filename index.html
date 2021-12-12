@@ -29,27 +29,51 @@
   </head>
   <body background = "background.jpg">
 
-   <center>
-     <div class = "btn btn-success heading">
-       <h2>AI Ping Pong Game</h2>
-       <button class = "btn btn-primary" data-toggle = "modal" data-target = "#myModal">Instuctions</button>
-     </div>
-
-     
-     
+    <center>
+      <div class = "btn btn-primary heading">
+        <h2>AI Ping Pong Game</h2>
+        <button class = "btn btn-success" data-toggle = "modal" data-target = "#myModal">Instuctions</button>
+      </div>
+ 
+      
+      
+      <br><br>
+ 
+      <button class = "btn btn-warning" onclick = "startGame()" id = "start">Play Game</button>
+      
+      <br><br>
+ 
+     <h3 id = "status" class = "btn btn-danger"></h3>
+ 
      <br><br>
-
-     <button class = "btn btn-warning" onclick = "startGame()" id = "start">Play Game</button>
-     
-     <br><br>
-
-    <h3 id = "status" class = "btn btn-info"></h3>
-
-    <br><br>
-
-    <div id = "canvas"></div>
-    <div id = "game_console"></div>
-   </center>    
+ 
+     <div id = "canvas"></div>
+     <div id = "game_console"></div>
+     <h4>
+       Source Code : <a href = "https://github.com/linuk">Linuk</a> || Game Credit : Mario
+     </h4>
+ 
+ <div id = "myModal" class = "modal fade">
+  <div class = "modal-content">
+   <div class = "modal-header">
+ 
+    <button class = "close" data-dismiss = "modal">&times;
+ 
+     <h4>Instrucions</h4>
+    
+ </button>
+   </div>
+ 
+ <div class = "modal-body">
+   <img src = "jump.png" class = "instruction_image">
+   <img src = "right.png" class = "instruction_image">
+   <img src = "left.png" class = "instruction_image">
+ </div>
+ 
+  </div>
+ </div>
+ 
+    </center>    
 
   </body>
 </html>
